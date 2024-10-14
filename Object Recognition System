@@ -1,0 +1,47 @@
+Team Formation & Role Assignment
+
+    Assemble Team: Identify the key members of your team at Capitol Technology University and gather their expertise (data science, coding, AI, API integration, etc.).
+    Assign Roles: Clearly assign responsibilities to each team member:
+        Data Collection & Labeling: In charge of gathering and annotating images.
+        Model Training: Focus on training and fine-tuning YOLOv11.
+        API Integration: Handles the Philips Hue API and controls the LEDs.
+        Documentation: Prepares project documentation and tracks progress.
+
+2. Set Up Version Control & Project Collaboration
+
+    GitHub Repository: Create a GitHub repository for the project. Ensure everyone is comfortable with Git basics (cloning, committing, and pushing changes).
+    Collaborative Tools: Use tools like Trello or Google Sheets to track tasks, set deadlines, and assign responsibilities.
+    Communication Channels: Use Slack, Discord, or Teams for day-to-day communication and hold regular meetings to keep everyone aligned.
+
+3. Data Collection & Annotation
+
+    Gather Images: Start collecting photos of humans and zombies with armbands that clearly distinguish between the two groups. Focus on getting a variety of conditions (angles, lighting, etc.).
+    Labeling with Label Studio: Use Label Studio to tag the images for training the YOLOv11 model. Make sure the armbands are correctly labeled for both humans and zombies.
+
+4. Initial YOLOv11 Model Setup
+
+    Set Up YOLOv11 Environment:
+        Install necessary software (YOLOv11 framework, TensorFlow or PyTorch, as needed).
+        Ensure each team member can replicate the environment locally.
+    Train YOLOv11:
+        Convert the labeled images into the format required for YOLOv11.
+        Split the dataset into training, validation, and test sets.
+        Begin training the model with basic configurations and measure initial performance.
+
+5. API Integration for LED Control
+
+    Learn Philips Hue API: Have a team member read through the documentation for Philips Hue API and run basic test calls to control the lights.
+    Simulate the System: Before full integration, use dummy data (e.g., fake detection results) to trigger LED changes based on expected input from YOLOv11.
+
+6. System Prototype
+
+    Build a Simple Prototype: Set up a basic system that takes an input video feed, detects objects using YOLOv11, and controls the Philips Hue lights.
+    Test in a Controlled Environment: Use this basic system to test real-world performance in a controlled setting (e.g., a lab), and debug any issues with detection or LED responsiveness.
+
+7. Educational & Documentation Focus
+
+    Create Learning Resources: As this is a student-led project, document everything as clearly as possible, especially for team members less familiar with certain areas. Include:
+        How to use Git.
+        Setting up YOLOv11.
+        Basic API usage.
+    Involve Fellow Students: Think about how this project can serve as a learning tool for other students at Capitol Tech. Consider setting up small tasks for them to contribute to or learn from the project.
