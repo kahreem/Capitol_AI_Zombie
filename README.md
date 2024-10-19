@@ -96,3 +96,12 @@ Design and Implementation Strategy for the Object Recognition System
         Plan for scaling the project or applying it to new use cases.
 
 By following this approach, you'll build a structured roadmap that allows for methodical development while keeping educational value at the forefront.
+
+
+#Next Project (Thinking Bigger)
+Object Detection Applied to Real World
+
+1. Project could relate to Ukraine armbands. Soldiers wear yellow armbands in Ukraine to be detected by drones flying overhead in order for the drones
+to not attack friendlies.
+2. Project could include recognizing medical teams/doctors on the battlefield. Drones that fly overhead will know not to attack recognized non-combatants
+or deliver packages to those invidividuals.
